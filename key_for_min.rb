@@ -9,7 +9,7 @@ def key_for_min_value(name_hash)
       prev_value = value
     else
       if prev_value > value 
-        key_arr << name
+        key_arr.unshift(name)
       else
         key_arr << name
       end 
